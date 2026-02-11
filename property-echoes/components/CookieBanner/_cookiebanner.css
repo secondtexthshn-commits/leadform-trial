@@ -1,0 +1,39 @@
+.cookie-banner-overlay {
+  @apply fixed inset-0 bg-black/15 z-40;
+}
+
+.cookie-banner-div {
+  @apply fixed bottom-0 left-0 right-0 bg-[#1a2744] z-50 px-6 py-4 shadow-lg;
+}
+
+.cookie-banner-content {
+  @apply max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4;
+}
+
+.cookie-banner-text {
+  @apply text-white/90 text-sm leading-relaxed font-light tracking-wide;
+}
+
+.cookie-banner-text a {
+  @apply text-white underline underline-offset-2 hover:text-gray-300 font-normal;
+}
+
+.cookie-banner-text span.highlight {
+  @apply text-[#c9a962] font-medium;
+}
+
+.cookie-banner-buttons {
+  @apply flex items-center gap-3 flex-shrink-0;
+}
+
+.cookie-btn {
+  @apply px-5 py-2 text-sm font-medium rounded tracking-wide transition-colors;
+}
+
+.cookie-btn-decline {
+  @apply bg-transparent border border-white/40 text-white/80 hover:bg-white/10 hover:border-white/60;
+}
+
+.cookie-btn-allow {
+  @apply bg-white text-[#1a2744] hover:bg-gray-100;
+}

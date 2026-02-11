@@ -1,0 +1,9 @@
+.desktop-content-div {
+  @apply flex text-white items-center;
+}
+.desktop-category-content-div {
+  @apply flex items-center bg-transparent;
+}
+.category-title-element-div {
+  @apply p-3  lg:block hidden;
+}

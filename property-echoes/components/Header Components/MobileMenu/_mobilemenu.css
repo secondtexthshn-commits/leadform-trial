@@ -1,0 +1,10 @@
+.mobile-view-menu-div {
+  @apply flex text-white flex-col m-5 text-3xl lg:hidden block text-center;
+}
+
+.mobile-view-close-menu-div {
+  @apply hidden;
+}
+.mobile-category-title-element-div {
+  @apply py-4 px-2 w-full text-center flex justify-center items-center;
+}

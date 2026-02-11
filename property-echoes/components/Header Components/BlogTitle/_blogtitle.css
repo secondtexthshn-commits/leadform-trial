@@ -1,0 +1,3 @@
+.blog-title-div {
+  @apply flex text-white items-center lg:text-4xl text-3xl m-5;
+}

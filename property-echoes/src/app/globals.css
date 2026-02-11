@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #002147;
+  --charcoal: #333333;
+  --off-white: #fcfcfc;
+  --muted-gold: #c5a059;
+  --border-light: #e5e7eb;
+}
+
+body {
+  @apply bg-white text-slate-900;
+  font-family: "Montserrat", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .serif {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.nav-link {
+  @apply text-sm font-bold tracking-[0.2em] uppercase text-slate-700 hover:text-[#002147] transition-colors;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 md:px-8;
+}
+
+/* Category Intro Styles */
+.category-intro p {
+  @apply mb-4 text-base leading-relaxed;
+}
+
+.category-intro a {
+  @apply text-[#002147] font-medium underline underline-offset-2 hover:text-[#c5a059] transition-colors;
+}
+
+.category-intro p:last-child {
+  @apply mb-0;
+}
+
+/* Card Improvements */
+.pro-card {
+  @apply bg-white border border-gray-100 rounded-none shadow-none hover:shadow-lg transition-all duration-300;
+}

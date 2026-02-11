@@ -1,0 +1,15 @@
+.category-div {
+  @apply flex flex-col;
+}
+
+.category-content-div {
+  @apply flex flex-col;
+}
+
+.category-elements {
+  @apply py-3 text-[#002147] text-sm font-medium border-b border-gray-100 hover:text-[#c5a059] transition-colors cursor-pointer;
+}
+
+.category-elements:last-child {
+  @apply border-b-0;
+}

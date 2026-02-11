@@ -1,0 +1,10 @@
+.footer-div {
+  @apply flex flex-col  lg:mt-[auto] mt-[350vh] text-white   bottom-0;
+}
+.disclaimer-section {
+  @apply flex flex-col bg-transparent p-5 m-5 text-center text-black;
+}
+
+.footer-elements-div {
+  @apply flex flex-col sm:flex-row  mt-auto justify-around bg-black items-center text-center text-white p-5 bottom-0;
+}

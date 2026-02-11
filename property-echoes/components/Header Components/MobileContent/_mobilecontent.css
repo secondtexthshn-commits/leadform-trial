@@ -1,0 +1,10 @@
+.mobile-content-div {
+  @apply flex  text-white m-5 items-center text-2xl lg:hidden block;
+}
+
+.mobile-content-options-div {
+  @apply flex flex-col text-white;
+}
+.category-title-element-div {
+  @apply p-3;
+}

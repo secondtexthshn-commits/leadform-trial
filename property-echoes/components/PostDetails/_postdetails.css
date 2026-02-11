@@ -1,0 +1,87 @@
+.post-details-title {
+  @apply p-3 lg:text-[40px] md:text-4xl text-2xl font-bold text-black;
+}
+.content-heading {
+  @apply p-3 font-semibold text-black;
+}
+.paragraph-align {
+  @apply p-3;
+}
+.post-image-align {
+  @apply rounded-[100px];
+}
+.content-align {
+  @apply text-start mt-5;
+}
+.category-element {
+  @apply p-1.5 m-3 rounded-full font-bold text-xl text-black inline;
+}
+.content-space {
+  @apply mt-6;
+}
+.details-alignment {
+  @apply flex flex-col;
+}
+/* Extra Styles for <p>, <h3>, <ol>, <li>, etc. */
+
+/* Paragraphs */
+p {
+  @apply mt-4 mb-4 px-5 leading-relaxed; /* Adds margin-bottom, line-height, and text color */
+}
+
+a {
+  @apply text-[#002147] hover:text-[#c5a059] transition-colors duration-200 underline decoration-1 underline-offset-4 font-bold;
+}
+
+h2 {
+  @apply mt-4 mb-4 px-5 text-2xl font-semibold; /* Adds margin, padding, font size, and weight */
+}
+/* Headings (h3) */
+h3 {
+  @apply mt-4 mb-4 px-5 text-xl font-semibold; /* Adds margin, padding, font size, and weight */
+}
+
+/* Ordered and Unordered Lists */
+ol,
+ul {
+  @apply mb-6 pl-8; /* Adds margin-bottom and padding-left */
+}
+
+/* List Items */
+li {
+  @apply mb-2 text-gray-700; /* Adds margin-bottom and text color */
+}
+
+/* Blockquotes */
+blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-600; /* Adds a left border, padding, and italic text */
+}
+
+/* Code Blocks */
+code {
+  @apply bg-gray-100 p-1 rounded text-sm font-mono text-gray-800; /* Adds background, padding, rounded corners, and monospace font */
+}
+
+/* Images inside content */
+.content-align img {
+  @apply my-4 rounded-lg shadow-md; /* Adds margin, rounded corners, and shadow */
+}
+
+/* Loft Calculator Page Specific Styles */
+.loft-calc-page h1 {
+  @apply mb-4;
+}
+
+.loft-calc-page .breadcrumb {
+  @apply mb-8;
+}
+
+/* Sidebar dominance reduction for specific page */
+.loft-calc-page ~ * h3 {
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.loft-calc-page ~ * .text-primary-navy {
+  color: #6b7280;
+}

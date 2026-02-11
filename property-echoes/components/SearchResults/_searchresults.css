@@ -1,0 +1,9 @@
+.pagination-button {
+  @apply px-4 py-2 w-[100px] text-center bg-black text-white rounded;
+}
+.pagination-buttons {
+  @apply flex  justify-around items-center p-5 w-[800px];
+}
+.load-button {
+  @apply px-2 py-2 w-[200px] mt-5 mx-auto text-center bg-black text-white rounded justify-center items-center;
+}

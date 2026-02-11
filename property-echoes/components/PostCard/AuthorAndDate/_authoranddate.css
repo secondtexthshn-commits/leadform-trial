@@ -1,0 +1,12 @@
+.author-date-display-div {
+  @apply flex items-center;
+}
+.author-image {
+  @apply max-h-[35px] max-w-[35px] rounded-full p-1;
+}
+.author-display-div {
+  @apply flex  w-fit justify-center items-center;
+}
+.date-display-div {
+  @apply flex w-fit  items-center;
+}

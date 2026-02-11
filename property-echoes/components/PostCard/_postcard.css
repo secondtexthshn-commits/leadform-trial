@@ -1,0 +1,4 @@
+/* Styles replaced by inline Tailwind for modern card layout */
+.postcard-div {
+  @apply flex flex-col lg:col-span-8 text-black;
+}

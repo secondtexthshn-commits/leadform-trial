@@ -1,0 +1,6 @@
+.post-widget-div {
+  @apply flex flex-col m-5 lg:col-span-8 text-white;
+}
+.post-widget-content-div {
+  @apply flex flex-col justify-center items-center bg-black p-3 rounded-[50px];
+}
